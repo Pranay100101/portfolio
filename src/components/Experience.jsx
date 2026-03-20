@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { Fade, Zoom } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 // ...existing code...
 
-const Experience = ({ darkMode }) => {
+const Experience = () => {
     return (
         <div className="job-outer-container">
             <Fade triggerOnce>

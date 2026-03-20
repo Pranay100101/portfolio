@@ -1,11 +1,9 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-import resume from '../media/SushantResume.pdf';
-import transcript from '../media/SushantResume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
-const About = ({ darkMode }) => {
+const About = () => {
   return (
     <div className="job-outer-container">
       <Fade triggerOnce>
